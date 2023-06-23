@@ -1,0 +1,17 @@
+/*  -----------------
+    Component Classes
+    ----------------- */
+
+.app {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*  ---------------
+    Utility Classes
+    --------------- */
+
+.italics {
+    font-style: italic;
+}
