@@ -36,7 +36,7 @@ header {
 
 .logo-card {
     position: relative;
-    width: 200em;
+    min-width: 30em;
 }
 
 .background-img {
@@ -74,6 +74,11 @@ header {
 .img-credit {
     z-index: 1;
     position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
 }
 
 .content {
