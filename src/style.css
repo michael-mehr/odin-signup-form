@@ -34,29 +34,55 @@ header {
     height: 100%;
 }
 
-.content {
-
-}
-
 .logo-card {
-    
+    position: relative;
+    width: 200em;
 }
 
 .background-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.logo-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 10em;
+    left: 0;
+    right: 0;
+    text-align: center;
     
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.logo-banner > p {
+    font-size: 4em;
 }
 
 .logo {
-    
+    height: 8em;
 }
 
 .img-credit {
+    z-index: 1;
+    position: absolute;
+}
+
+.content {
 
 }
 
 
 /*  ---------------
-    Utility Classes
+Utility Classes
     --------------- */
 
 .italics {
