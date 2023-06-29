@@ -77,7 +77,7 @@ header {
 .img-credit {
     z-index: 1;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     right: 0;
     text-align: center;
@@ -88,6 +88,15 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.info-text {
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+.info-text > p {
+    margin-bottom: 1em;
 }
 
 .input-pair {
