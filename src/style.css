@@ -84,6 +84,10 @@ header {
     color: white;
 }
 
+.img-credit > a {
+    color: white;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -99,9 +103,32 @@ header {
     margin-bottom: 1em;
 }
 
+.white-banner {
+    padding: 2em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+
+    background-color: white;
+    box-shadow: 0 2px 6px rgb(200, 200, 200);
+}
+
+.white-banner > p {
+    margin-bottom: 1em;
+}
+
+.input-pairs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+}
+
 .input-pair {
     display: flex;
     flex-direction: column;
+}
+
+.input-pair > input {
+    
 }
 
 
