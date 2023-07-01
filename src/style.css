@@ -1,3 +1,9 @@
+@font-face {
+    font-family: norse-bold;
+    src: url("./assets/Norse-Bold.otf");
+}
+
+
 /*  --------
     Elements
     --------
@@ -68,6 +74,7 @@ header {
 
 .logo-banner > p {
     font-size: 4em;
+    font-family: norse-bold;
 }
 
 .logo {
@@ -129,6 +136,16 @@ header {
 
 .input-pair > input {
     
+}
+
+.submit {
+    background-color: green;
+    border: none;
+    padding: 0.75rem 2rem;
+
+    color: white;
+    font-size: 1.25em;
+    text-align: center;
 }
 
 
