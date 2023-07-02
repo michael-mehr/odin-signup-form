@@ -31,6 +31,11 @@ header {
     
 }
 
+label {
+    font-size: .8em;
+    margin-bottom: .1em;
+}
+
 
 /*  -----------------
     Component Classes
@@ -104,6 +109,7 @@ header {
 .info-text {
     margin-bottom: 1em;
     margin-left: 2em;
+    margin-right: 9em;
 }
 
 .info-text > p {
@@ -127,6 +133,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3em;
+    row-gap: 1em;
 }
 
 .input-pair {
@@ -135,17 +142,35 @@ header {
 }
 
 .input-pair > input {
-    
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: .25rem;
+    font-size: 1rem;
 }
 
 .submit {
-    background-color: green;
+    background-color: #596D48;
     border: none;
+    border-radius: 0.5rem;
     padding: 0.75rem 2rem;
 
     color: white;
-    font-size: 1.25em;
+    font-size: 1rem;
     text-align: center;
+    font-weight: bold;
+
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.already {
+    margin-left: 2rem;
+}
+
+.already > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #596D48;
 }
 
 
